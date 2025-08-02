@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { getProducts } from '../api.js'
+import { getProducts, deleteProduct } from '../api.js'
 import { Link } from 'react-router-dom'
 import ProductCard from './ProductCard.jsx'
 
